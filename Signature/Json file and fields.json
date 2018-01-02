@@ -1,0 +1,67 @@
+//Please Use TAB when making scrapy script!
+
+//These are the REQUIRED FIELDS
+[
+	{
+		//This field should contain the name of the organization that is hosting the event! CAN BE HARD-CODED!
+		"organization":(text format)
+		"title":(text format)
+		"description":(html format)
+		"eventWebsite":(url/link - text format)
+		"street":(text format)
+		"city":(text format)
+		"state":(text format)
+		"zip":(numeric format xxxxx)
+		"dateFrom":(REQUIRED FORMAT: dd/mm/yyyy)
+		"startTime":(REQUIRED FORMAT: hh:mm am/pm)
+		//This field should be located in every and each scraper! Just insert it and leave it empty = ""!
+		"In_group_id":
+		//URL of RSVP or event registration. Use 'eventWebsite' field if unavailable
+		"ticketUrl":(url/link - text format)
+		
+//These are OPTIONAL FIELDS! - If available please insert them
+		"dateTo":(REQUIRED FORMAT: dd/mm/yyyy)
+		"endTime":(REQUIRED FORMAT: hh:mm am/pm)
+		//Ignore if all events take place in New York 
+		"eventTimeZone":(text format)
+		//If number of events is listed on page
+		"noEvents":(numeric)
+		//Name of location venue or "Online" if a webinar/online event
+		"location":(text format)
+		// If event has a room number/name where is being hosted:
+		"room":(text format)
+		//Include multiple images associated with event (e.g. eventImage1, eventImage2)
+		"eventImage":(url/link - text format)
+		//Include agenda in description (above) and separately in this field
+		"eventAgenda":(html format; table)
+		"contactFirstName":(text format)
+		"contactLastName":(text format)
+		//Email can be either a contact email or for general event inquiries
+		"contactEmail":(text format)
+		"contactPhone":(text format)
+		//If multiple speakers use "speaker1FirstName", "speaker2FirstName" .... and so on
+		"speakerFirstName":(text format)
+		"speakerLastName":(text format)
+		"speakerJobTitle":(text format)
+		"speakerAffiliation":(text format)
+		"speakerBio":(text format)
+		"speakerRelatedImage":(url/link - text format)
+		//Most events are free so this field will almost always be blank
+		"eventPrice":(numeric and should contain the dollar sign-eg.: $12.95)		
+		//If different prices for members, non-members, students, etc..
+		//If you use this type of Prices .... than you do not need to insert the "eventPrice" from above
+		"eventPriceMembers":
+		"eventPriceStudents":
+		"eventPriceNonmembers":
+		"eventTags": (text format - comma separated event tags)
+		"hashtags": (Twitter hashtag associated with event)
+		//If event has social pages please gather the url and use:
+		"eventFlink":(Facebook link), or
+		"eventTlink":(Twitter link), or
+		"eventIlink":(Instagram link), etc...
+
+
+- Any other information available and easy to retrieve can be added
+- Some times hard-coding is required and/or acceptable. Please confirm with project manager when hard-coding data
+- If you have doubts or issues related to scraper, or related to required/not required fields and formats and any thing else
+PLEASE ASK :)

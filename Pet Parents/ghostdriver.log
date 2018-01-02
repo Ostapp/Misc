@@ -1,0 +1,10 @@
+[INFO  - 2017-08-01T19:01:28.618Z] GhostDriver - Main - running on port 33061
+[INFO  - 2017-08-01T19:01:29.185Z] Session [d3413e70-76eb-11e7-99aa-3fc771027605] - page.settings - {"XSSAuditingEnabled":false,"javascriptCanCloseWindows":true,"javascriptCanOpenWindows":true,"javascriptEnabled":true,"loadImages":true,"localToRemoteUrlAccessEnabled":false,"userAgent":"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/538.1 (KHTML, like Gecko) PhantomJS/2.1.1 Safari/538.1"}
+[INFO  - 2017-08-01T19:01:29.185Z] Session [d3413e70-76eb-11e7-99aa-3fc771027605] - page.customHeaders:  - {}
+[INFO  - 2017-08-01T19:01:29.186Z] Session [d3413e70-76eb-11e7-99aa-3fc771027605] - Session.negotiatedCapabilities - {"browserName":"phantomjs","version":"2.1.1","driverName":"ghostdriver","driverVersion":"1.2.0","platform":"linux-unknown-64bit","javascriptEnabled":true,"takesScreenshot":true,"handlesAlerts":false,"databaseEnabled":false,"locationContextEnabled":false,"applicationCacheEnabled":false,"browserConnectionEnabled":false,"cssSelectorsEnabled":true,"webStorageEnabled":false,"rotatable":false,"acceptSslCerts":false,"nativeEvents":true,"proxy":{"proxyType":"direct"}}
+[INFO  - 2017-08-01T19:01:29.186Z] SessionManagerReqHand - _postNewSessionCommand - New Session Created: d3413e70-76eb-11e7-99aa-3fc771027605
+[ERROR - 2017-08-01T19:03:28.451Z] RouterReqHand - _handle.error - {"line":40,"stack":"get\n_find\n_locateElement\n_handleLocateCommand\n_handle\n_reroute\n_handle"}
+[ERROR - 2017-08-01T19:04:29.477Z] RouterReqHand - _handle.error - {"line":40,"stack":"get\n_find\n_locateElement\n_handleLocateCommand\n_handle\n_reroute\n_handle"}
+[INFO  - 2017-08-01T19:06:28.617Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2017-08-01T19:11:28.641Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2017-08-01T19:16:28.617Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW

@@ -1,0 +1,48 @@
+shorten path - PS1='\u:\W\$ '
+
+
+Some universities do not have infobox
+Some pages listing universities do not arrange the lists in tabels, but in unordered lists, others combine both lists and tables
+
+        driver = webdriver.Chrome()
+        driver.get('https://www.paris.cl/tienda/es/paris')
+
+        elem = driver.find_element_by_id('SimpleSearchForm_SearchTerm')
+        elem.send_keys(search_string)
+        elem.send_keys(Keys.RETURN)
+        element = WebDriverWait(driver, 5).until(EC.presence_of_element_located((By.ID, "product")))
+
+
+  If the funds have been actually debited from your credit card, please contact payment integrator PayU by email support@payu.ru or by phone 8(800)200-3262, +7(495)231-3676. Tell them the number of purchase: 35109059.
+
+
+Error processing the credit card transaction. The transaction will exceed the card/account withdrawal frequency limit. Please contact the issuer bank for more details, or enter another card.
+
+http://thebigproxylist.com/
+
+subprocess.call('sudo bash hma-vpn.sh -c id-file',cwd='/home/ostap/Documents/programming/Elliot/hma-linux', shell=True)
+
+os.system("gnome-terminal -e 'bash -c \"sudo bash hma-vpn.sh -c id-file; exec bash\"'")
+
+		# PROXY = next(admin.proxy_gen)
+			# print PROXY
+			profile = webdriver.FirefoxProfile()
+			profile.set_preference("general.useragent.override",admin.random_user_agent())
+			webdriver.DesiredCapabilities.FIREFOX['marionette'] = False
+			# webdriver.DesiredCapabilities.FIREFOX['proxy']={
+			# 	"httpProxy":PROXY,
+			# 	"ftpProxy":PROXY,
+			# 	"sslProxy":PROXY,
+			# 	"noProxy":None,
+			# 	"proxyType":"MANUAL",
+			# 	"autodetect":False
+			# }
+
+#runs script in a new terminal window
+process = subprocess.Popen(["gnome-terminal -e 'bash -c \"sudo bash hma-vpn.sh -c id-file; exec bash\"'"], shell=True)
+p = subprocess.Popen(["gnome-terminal -e 'bash -c \"sudo bash hma-vpn.sh -c id-file; exec bash\"'"]"exec ", stdout=subprocess.PIPE, shell=True)
+
+#to start new process
+p = subprocess.Popen(["exec gnome-terminal -e 'bash -c \"sudo bash hma-vpn.sh -c id-file; exec bash\"'"], stdout=subprocess.PIPE, shell=True)
+#to close it
+os.system('''ps axf | grep hma-vpn.sh | grep -v grep | awk '{print "kill " $1 }' | sh''')
